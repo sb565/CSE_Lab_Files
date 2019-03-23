@@ -1,0 +1,7 @@
+draw the class diagram for library 
+
+Library
+a library lends books and magazines to members who are registered in the system also it handles the purchase of new titles for the library
+popular titles are bought in multiple copies . old books and magazines newspapers are removed when they are out of date or in poor condition.
+a member can reserve a book or magazine that is not currently available in library so that when it is returned or purchased by the library then the person is notified.
+the library can easily create update and delete information about the titles, members, loan and reservation in the system 

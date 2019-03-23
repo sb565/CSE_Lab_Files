@@ -1,0 +1,34 @@
+Sequence diagram
+
+Sequence diagram shows the interaction between the objects over a specific period of time
+It means how much time the object is alive during the interaction 
+-It is dynamic in nature
+-The message flow is vertically in a water fall manner that is start from and flows to the bottom
+-dashed lines represent the duration for which the object is alive
+-Message sent from a object is represented by a dark arrow and a dark arrow head
+(screenshot)
+
+Messages in sequence Diagram
+1. Synchronisation message
+	-They are called simple messages
+	-They are represented by dark line and dark arrowhead
+		(Show Line)
+	-In this the caller object waits untill the called objects or message reply back to the caller object. It means if the caller object waits for an wnswer then this is called as synchronisation message
+Diagram of booking movie ticket
+2. Asynchronisation Message 
+	-They are represented by solid blsck coloured line with a thin arrow head
+	-In this the caller object just calls the object and goes for doing some another work and he/she returns back when the callee object tells him that he has finished the work 
+3. Recursive message(Self Message)
+	-Some times we have huge loops within an object itself or in message interaction or the loops where the method calls himself or the object is calling some functionalities himself
+	(sequence diagram of factorial )
+	it is shown by a simple small box
+4.Conditional messages
+	-create Message
+	-Conditional message means for interaction message, message interaction should happen only when certain condition fulfilled
+
+Sequence Diagram for Library Management 
+student 
+book 
+librarinan 
+
+issue and return book

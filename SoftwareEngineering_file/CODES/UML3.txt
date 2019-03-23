@@ -1,0 +1,58 @@
+To study UML user case diagram (ucd)
+
+introduction
+-Use case diagram are dynamic in nature, dynamic behaviour 
+-It consists of internal and external factors for making the interaction
+-these internal and external agents are known as actors
+-It consists of actors, use cases and relationships
+
+Purpose of use cases
+-it's used to gather requirements of a system
+-used to get an outside view of a system
+-it shows the interaction among the requirements and the actors
+
+How to draw Use case diagram
+-We have to first identify the actors actors can be defined as something that interacts with the system
+-the actors can be human users some internal applications or may be some external applications
+
+Where to use UCD
+-It specify the events of a system and their flows but use case diagram never discibe how they are implemented
+-UCD can be an image as a black box where only the input output and the functions of the black box 
+-UCD can be in forward engineering process and backwaard engineering process
+
+System boundary
+-It defines the limit of a system
+-It is represented by rectangular box
+-Use case are inside the boundary
+-Actors are outside the boundary
+(UML screenshot)
+
+Relationships in UCD-
+-Multiplicity of associations
+
+-Multiplicity of an actors
+(sccreenshots)
+NOTE- only binary associations are allowed in actors and use cases
+
+Include
+-When a use case is depicted as using the functionality of another use case this relationship between the use cases is named as the include relationship
+-The directed arrow having a dotted line 
+-The tip of the arrow head points to the child use case and the parent use case is connected at the base of the arrow
+-The stereo type "<<include>>" identifies the relationship as the
+//make two use cases.
+(screenshot)
+
+Extend
+-Extend relationship between the child case adds to the existing functionality and characteristics of parent use case
+-A directed arrow having a dotted line (same as include) 
+-The tip of the arrow have points to the parent use case and the child use case is connected at the base of the arrow
+(acreenshot)
+
+Generalisation
+-
+
+
+
+Practical Uses Case Diagram on ATM Machine
+//actors 4==>1.User  2.Technitian  3.Bank repressentative/System Admin 4.stocker
+//include and extend use
